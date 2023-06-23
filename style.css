@@ -1,6 +1,6 @@
 *{
     color:#fff;
-    font-family: 'Ysabeau Infant', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -30,7 +30,7 @@ nav{
   }
 
   .index-header{
-    width:75%;
+    width:85%;
     padding-left:10%
   }
   h1{
@@ -48,8 +48,26 @@ nav{
     padding-left: 10%;
 }
 #shape1{
-    position: absolute;
+    position: relative;
     left: 0px;
     top: 0px;
     z-index: -1;
+}
+.bttns{
+    padding-left: 18%;
+    padding-top:30px;
+}
+.bttns a{
+    border-radius:25px;
+    border-color: #fff;
+    border-width: 1px;
+    border-style:solid;
+    transition: 0.5s;
+    padding:10px;
+    margin:5px;
+}
+.bttns a:hover{
+    color:#f4783d;
+    background-color: #fff;
+    opacity:1;
 }
