@@ -77,6 +77,12 @@ nav{
     background-color: #fff;
     opacity:1;
 }
+.shape-2{
+    position:sticky;
+    z-index: -1;
+    left: 0px;
+    top:0px;
+}
 .fa-linkedin{
     color:#fff;
 }
