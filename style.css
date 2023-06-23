@@ -47,3 +47,9 @@ nav{
     width:55%;
     padding-left: 10%;
 }
+#shape1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
