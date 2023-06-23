@@ -1,0 +1,49 @@
+*{
+    color:#fff;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+body{
+    background-color: #f4783d;
+}
+p{
+    font-size:1.5rem;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-links li {
+    list-style: none;
+  
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+  }
+
+  .index-header{
+    width:75%;
+    padding-left:10%
+  }
+  h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 8rem;
+    line-height:0.8;
+    text-indent:8.7%;
+  }
+.h1line1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 3rem;
+}
+.index-hero-p{
+    width:55%;
+    padding-left: 10%;
+}
