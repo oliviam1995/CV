@@ -6,6 +6,11 @@
 body{
     background-color: #f4783d;
 }
+.footernav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
 p{
     font-size:1.5rem;
 }
@@ -63,6 +68,7 @@ nav{
     border-width: 1px;
     border-style:solid;
     transition: 0.5s;
+    text-decoration: none;
     padding:10px;
     margin:5px;
 }
