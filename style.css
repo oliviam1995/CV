@@ -12,7 +12,7 @@ body{
     align-items: center;
 }
 h1,h2,h3,h4{
-    font-family: 'Yeseva One', cursive;
+    font-family: 'Yeseva One', sans-serif;
 }
 h1{
     font-size: 3rem;
@@ -60,11 +60,11 @@ nav{
   }
   */
 .h1line1{
-    font-family: 'Yeseva One', cursive;
+    font-family: 'Yeseva One', sans-serif;
     font-size: 3rem;
 }
 .h1line2{
-    font-family: 'Yeseva One', cursive;
+    font-family: 'Yeseva One', sans-serif;
     font-size: 8rem;
     line-height:0.8;
     text-indent:8.7%;
