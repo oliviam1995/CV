@@ -1,3 +1,4 @@
+
 *{
     color:#fff;
     font-family: 'Poppins', sans-serif;
@@ -11,6 +12,13 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+h1,h2,h3,h4{
+    font-family: 'Yeseva One', cursive;
+}
+h1{
+    font-size: 3rem;
+}
+
 p{
     font-size:1.5rem;
 }
@@ -18,6 +26,7 @@ nav{
     display:flex;
     justify-content: space-around;
     align-items: center;
+    margin-top:1em;
 }
 .nav-links {
     display: flex;
@@ -43,16 +52,16 @@ nav{
     background-repeat: no-repeat;
     background-position: left top;
   }
-  h1{
+.h1line1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 3rem;
+}
+.h1line2{
     font-family: 'Yeseva One', cursive;
     font-size: 8rem;
     line-height:0.8;
     text-indent:8.7%;
   }
-.h1line1{
-    font-family: 'Yeseva One', cursive;
-    font-size: 3rem;
-}
 .index-hero-p{
     width:55%;
     padding-left: 10%;
@@ -66,6 +75,7 @@ nav{
 .bttns{
     padding-left: 18%;
     padding-top:30px;
+    justify-content: space-between;
 }
 .bttns a{
     border-radius:25px;
@@ -74,20 +84,28 @@ nav{
     border-style:solid;
     transition: 0.5s;
     text-decoration: none;
-    padding:10px;
-    margin:5px;
+    padding:10px 15px;
+    margin:10px;
 }
 .bttns a:hover{
     color:#f4783d;
     background-color: #fff;
     opacity:1;
 }
-.shape-2{
-    position:sticky;
-    z-index: -1;
-    left: 0px;
-    top:0px;
+
+.accordion {
+    color:#f4783d;
+    background-color: antiquewhite;
+    border-radius:10px;
 }
-.fa-linkedin{
-    color:#fff;
+
+.WESection{
+    background-color: antiquewhite;
+    padding:1em 1em;
+    border-radius:10px;
+    margin:2% 5%;
+    box-shadow: 2px 5px 50px 0 rgba(195, 96, 49);
+}
+.WESection h2, .WESection h3{
+    color:#f4783d;
 }
