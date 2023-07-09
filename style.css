@@ -38,6 +38,11 @@ nav{
     width:85%;
     padding-left:10%
   }
+  body{
+    background-image: url(/images/shape-3.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
   h1{
     font-family: 'Yeseva One', cursive;
     font-size: 8rem;
