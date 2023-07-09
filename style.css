@@ -1,4 +1,3 @@
-
 *{
     color:#fff;
     font-family: 'Poppins', sans-serif;
@@ -52,6 +51,14 @@ nav{
     background-repeat: no-repeat;
     background-position: left top;
   }
+ /*weird shape background*/
+ /* .col-1{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 70% 50%;
+    background-size: 300px 300px;
+  }
+  */
 .h1line1{
     font-family: 'Yeseva One', cursive;
     font-size: 3rem;
@@ -94,10 +101,28 @@ nav{
 }
 
 .accordion {
-    color:#f4783d;
     background-color: antiquewhite;
-    border-radius:10px;
+    color: #f4783d;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-radius:10px 10px 0 0 ;
 }
+.accordion:hover {
+    background-color: #f4783d;
+    color:#fff;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
 
 .WESection{
     background-color: antiquewhite;
