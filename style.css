@@ -7,9 +7,17 @@ body{
     background-color: #f4783d;
 }
 .footernav{
+    margin-top: 40px;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+}
+.footernav p{
+    font-size: 1rem;
+}
+.icon{
+    color:white;
+    font-size:20px!important;
 }
 h1,h2,h3,h4{
     font-family: 'Yeseva One', sans-serif;
@@ -101,7 +109,78 @@ nav{
     background-color: #ff8242;
     opacity:1;
 }
-
+.wrapper{
+    width:80%;
+    max-width: 1000px;
+    display:flex;
+    justify-content: center;
+}
+.timeline{
+    list-style: none;
+    padding: 20px 0 20px;
+    position: relative;
+    width:100%;
+}
+.timeline li{
+    margin-bottom: 40px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.timeline .panel{
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    background-color: #f4783d;
+    box-shadow: 20px 20px 30px #cf6634,
+     -20px -20px 30px #ff8a46;
+}
+.timeline p{
+    padding: 0 20px 10px 20px;
+}
+.timeline summary{
+    display: block;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    padding:20px;
+    margin-bottom: 0px;
+    transition: all 600ms cubic-bezier(0.2, 1, 0.3, 1);
+    font-weight: 600;
+}
+.timeline .panel[open] summary{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.timeline summary:hover{
+    background: rgba(220, 108, 55, 0.4);
+}
+.timeline:before{
+    top:50px;
+    bottom:0;
+    left:8%;
+    position:absolute;
+    content:"";
+    width:5px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #d9d9d9,
+    -1px -1px 2px #fff;
+}
+.timeline li:before{
+    content:"";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top:26px;
+    left:8%;
+    background: #cf3419;
+    margin-left: -5px;
+    z-index:99;
+    box-shadow: 2px 2px 5px #cf6634,
+     -2px -2px 5px #ff8a46;
+}
 .WESection{
     background-color: #f4783d;
     padding:1em 1em;
@@ -113,5 +192,3 @@ nav{
 #WES1{
     width: 50%;
 }
-.WESection h2, .WESection h3{
-    color:#fff
