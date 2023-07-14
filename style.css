@@ -6,6 +6,11 @@
 body{
     background-color: #f4783d;
 }
+footer{
+    width:100%;
+    position:fixed;
+    bottom:0;
+}
 .footernav{
     margin-top: 40px;
     display:flex;
@@ -14,6 +19,7 @@ body{
 }
 .footernav p{
     font-size: 1rem;
+
 }
 .icon{
     color:white;
@@ -133,11 +139,11 @@ nav{
     overflow: hidden;
     position: relative;
     background-color: #f4783d;
-    box-shadow: 20px 20px 30px #cf6634,
-     -20px -20px 30px #ff8a46;
+    box-shadow: 20px 20px 30px rgba(207, 102, 52, 0.6), -20px -20px 30px rgba(255, 138, 70, 0.6)
 }
 .timeline p{
     padding: 0 20px 10px 20px;
+    font-size: 1rem;
 }
 .timeline summary{
     display: block;
@@ -159,10 +165,11 @@ nav{
 .timeline:before{
     top:50px;
     bottom:0;
-    left:8%;
+    left:8.2%;
     position:absolute;
     content:"";
-    width:5px;
+    width:3px;
+    border-radius: 30px;
     background-color: #fff;
     box-shadow: 1px 1px 5px #d9d9d9,
     -1px -1px 2px #fff;
