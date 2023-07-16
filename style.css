@@ -6,6 +6,13 @@
 body{
     background-color: #f4783d;
 }
+#index-body{
+    height: 300px;
+    background-image: url(images/asset-11.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 50px 50px;
+}
 footer{
     width:100%;
     position:fixed;
@@ -16,8 +23,6 @@ footer{
     display:flex;
     justify-content: space-evenly;
     align-items: center;
-    background-image: url(images/Asset\ 14.png);
-    background-position: ;
 }
 .footernav p{
     font-size: 1rem;
@@ -60,7 +65,7 @@ nav{
 
   .index-header{
     width:85%;
-    padding-left:10%
+    padding-left:10%;
   }
   body{
     background-image: url(/images/shape-3.png);
@@ -99,6 +104,8 @@ nav{
     padding-left: 15%;
     padding-top:30px;
     justify-content: space-between;
+    background-color: #f4783d;
+    opacity: 1;
 }
 .bttns a{
     border-radius:25px;
@@ -116,6 +123,16 @@ nav{
     color:#fff;
     background-color: #ff8242;
     opacity:1;
+}
+.shape-bg{
+    height: 300px;
+    width: 300px;
+    background-image: url(images/asset-11.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 0;
+    margin-left: 50px;
+    z-index: -1;
 }
 .wrapper{
     width:80%;
