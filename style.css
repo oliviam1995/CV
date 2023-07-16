@@ -16,6 +16,7 @@ footer{
     display:flex;
     justify-content: space-evenly;
     align-items: center;
+    background-image: url();
 }
 .footernav p{
     font-size: 1rem;
